@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string> </string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="dialog-password">
+    <normaloff>.</normaloff>.</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(33, 33, 33);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="NameLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>761</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>35</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 35pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Password Generator</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ByAuthorLabel">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>90</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 20pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>By AdamantiumCode</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GitHubButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>510</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 20pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>My GitHub</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OptionsButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 30pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Options</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="YourPasswordLabel">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>441</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 30pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Your password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FrameOptionsLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>301</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(66, 66, 66);
+border-width: 5px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FrameOptionsLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>301</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(66, 66, 66);
+border-width: 5px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FramePasswordLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>441</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(66, 66, 66);
+border-width: 5px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FramePasswordLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>220</y>
+      <width>441</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(66, 66, 66);
+border-width: 5px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="PasswordText">
+    <property name="geometry">
+     <rect>
+      <x>355</x>
+      <y>231</y>
+      <width>411</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 35pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial Black'; font-size:35pt; font-weight:900; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GenerateButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>510</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 20pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Generate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CopyButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>510</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 20pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 15px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Copy</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LanguageLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 20pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 10px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Language</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="EnglishRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>299</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 15pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 5px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>English</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="RussianRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>178</x>
+      <y>300</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 15pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 5px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Русский</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PasswordLenghtLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 20pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 10px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>Password length</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="PasswordLengthSlider">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>440</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="minimum">
+     <number>5</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="pageStep">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PasswordLenValueLabel">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>440</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 900 15pt &quot;Arial Black&quot;;
+color: rgb(120, 120, 120);
+
+background-color: rgb(66, 66, 66);
+
+border-color: rgb(97, 97, 97);
+border-width: 0px;
+border-radius: 10px;
+border-style: solid;</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>FramePasswordLabel_1</zorder>
+   <zorder>FrameOptionsLabel_1</zorder>
+   <zorder>NameLabel</zorder>
+   <zorder>ByAuthorLabel</zorder>
+   <zorder>GitHubButton</zorder>
+   <zorder>OptionsButton</zorder>
+   <zorder>YourPasswordLabel</zorder>
+   <zorder>FrameOptionsLabel_2</zorder>
+   <zorder>FramePasswordLabel_2</zorder>
+   <zorder>PasswordText</zorder>
+   <zorder>GenerateButton</zorder>
+   <zorder>CopyButton</zorder>
+   <zorder>LanguageLabel</zorder>
+   <zorder>EnglishRadioButton</zorder>
+   <zorder>RussianRadioButton</zorder>
+   <zorder>PasswordLenghtLabel</zorder>
+   <zorder>PasswordLengthSlider</zorder>
+   <zorder>PasswordLenValueLabel</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
