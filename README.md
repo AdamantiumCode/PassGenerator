@@ -1,5 +1,5 @@
 # PassGenerator
- Fast and secure password generator on Python using PyQt6.
+ Fast and secure password generator on Python using PyQt6
 
  The generator is available in three different versions:
 
