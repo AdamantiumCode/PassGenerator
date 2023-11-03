@@ -38,4 +38,5 @@ Happy use!
 
 **- The repository also has a "requirements.txt" file to quickly load libraries and modules!**
 
-**- Python version 3.10.9**
+# Python Version
+My PassGenerator works starting from Python version 3.10 and ending with Python version 3.11
